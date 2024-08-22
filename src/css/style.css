@@ -1,0 +1,186 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .recipe-page {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 735px;
+    height: 1660px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 65px;
+    border-radius: 20px;
+}
+
+.image {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.image img {
+    width: 675px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.recipe-page .introduction .title {
+    font-family: "youngserif";
+    color: hsl(24, 5%, 18%);
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.recipe-page .introduction .text {
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+    margin-top: 16px;
+}
+
+.recipe-page .preparation-time {
+    background-color: hsla(336, 100%, 98%, 0.884);
+    border-radius: 10px;
+}
+
+.preparation-time {
+    font-family: "outfit";
+    padding: 25px;
+}
+
+.preparation-time h3 {
+    color: hsl(332, 51%, 32%)
+}
+
+.preparation-time li::marker {
+    color: hsl(332, 51%, 32%)
+}
+
+.preparation-time .list {
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-time .list span {
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.preparation-time .list li {
+    margin-top: 12px;
+    padding: 3px;
+}
+
+.recipe-page .ingredients h3 {
+    font-family: "youngserif";
+    color: hsl(14, 45%, 36%);
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.recipe-page .ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients .items {
+    padding: 15px;
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+
+.ingredients .items .item {
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+    padding: 10px;
+}
+
+hr {
+    color: hsla(30, 18%, 87%, 0.251);
+}
+
+.recipe-page .instructions h3 {
+    font-family: "youngserif";
+    color: hsl(14, 45%, 36%);
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.recipe-page .instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.instructions .ordered-items {
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+.instructions .ordered-items span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.instructions .ordered-items li {
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.recipe-page .nutrition h3 {
+    font-family: "youngserif";
+    color: hsl(14, 45%, 36%);
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.recipe-page .nutrition .txt {
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+
+.nutri-info {
+    display: flex;
+    font-family: "outfit";
+    justify-content: flex-start;
+    padding: 10px;
+    width: 735px;
+}
+
+.nutri-info span {
+    color: hsl(30, 10%, 34%);
+    margin-left: 20px;
+}
+
+.nutri-info p {
+    color: hsl(14, 45%, 36%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.nutri-info .kcal-info {
+    padding-left: 246px;
+}
+
+.nutri-info .carb-info {
+    padding-left: 263px;
+}
+
+.nutri-info .prote-info {
+    padding-left: 256px;
+}
+
+.nutri-info .fat-info {
+    padding-left: 284px;
+}

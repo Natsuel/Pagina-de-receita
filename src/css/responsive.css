@@ -1,0 +1,171 @@
+@media (max-width: 376px) {
+    .container {
+        width: 380px;
+    }
+
+    .container .recipe-page {
+        width: 380px;
+        height: 100%;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+        border-radius: 0;
+    }
+
+    .recipe-page .image {
+        margin-top: 0;
+    }
+
+    .recipe-page .image img {
+        width: 380px;
+        height: 200px;
+        border-radius: 0;
+    }
+
+    .recipe-page .introduction {
+        padding: 15px;
+    }
+
+    .recipe-page .introduction .title {
+        font-size: 35px;
+    }
+
+    .introduction .text {
+        width: 335px;
+        font-size: 17px;
+    }
+
+    .recipe-page .preparation-time {
+        margin-left: 15px;
+    }
+
+    .recipe-page .preparation-time .list {
+        font-size: 17px;
+    }
+
+    .recipe-page .ingredients {
+        margin-left: 15px;
+        font-size: 17px;
+    }
+
+    .recipe-page .instructions {
+        margin-left: 15px;
+    }
+
+    .recipe-page .instructions .ordered-items {
+        width: 360px;
+    }
+
+    .instructions .ordered-items  span,li {
+        font-size: 17px;
+    }
+
+    .recipe-page .nutrition {
+        margin-left: 15px;
+    }
+
+    .nutrition .txt {
+        width: 330px;
+        font-size: 17px;
+    }
+
+    .nutri-info {
+        width: 0;
+    }
+
+    .nutri-info .kcal-info {
+        padding-left: 90px;
+    }
+
+    .nutri-info .carb-info {
+        padding-left: 106px;
+    }
+
+    .nutri-info .prote-info {
+        padding-left: 99px;
+    }
+
+    .nutri-info .fat-info {
+        padding-left: 125px;
+    }
+}
+
+@media (max-width: 415px) {
+    .container {
+        width: 100vw;
+    }
+
+    .container .recipe-page {
+        width: 100vw;
+        height: 100%;
+        padding: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .recipe-page .image {
+        width: 100vw;
+        margin-top: 0;
+    }
+
+    .recipe-page .image img {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    .nutri-info .kcal-info {
+        padding-left: 100px;
+    }
+
+    .nutri-info .carb-info {
+        padding-left: 116px;
+    }
+
+    .nutri-info .prote-info {
+        padding-left: 108px;
+    }
+
+    .nutri-info .fat-info {
+        padding-left: 137px;
+    }
+}
+
+@media (max-width: 429px) {
+    .container {
+        width: 100vw;
+    }
+
+    .container .recipe-page {
+        width: 100vw;
+        height: 100%;
+        padding: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .recipe-page .image {
+        width: 100vw;
+        margin-top: 0;
+    }
+
+    .recipe-page .image img {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    .nutri-info .kcal-info {
+        padding-left: 100px;
+    }
+
+    .nutri-info .carb-info {
+        padding-left: 116px;
+    }
+
+    .nutri-info .prote-info {
+        padding-left: 108px;
+    }
+
+    .nutri-info .fat-info {
+        padding-left: 137px;
+    }
+}
